@@ -1,0 +1,58 @@
+/*ANIMACIONES*/
+
+.botonera li:hover{
+			background-color: #00823D;
+			transition: all 1s;
+		}
+
+/*@media (min-width:  768px){
+	@keyframes Imgs{
+		0%{ background-image: url(../img/tatuaje.jpg)}
+		25%{ background-image: url(../img/tatuaje2.png)}
+		50%{ background-image: url(../img/tatuaje3.png)}
+		75%{ background-image: url(../img/tatuaje4.jpeg)}
+		100%{ background-image: url(../img/tatuaje.jpg);}
+	}
+}*/
+
+.imagenes{
+	width: 100%;
+	background-size: cover;
+	display: flex;
+	animation-name: Imgs;
+	animation-timing-function: ease-in;
+	animation-duration: 15s;
+	animation-iteration-count:infinite;
+	animation-delay: 0s;
+	/*margin-left: 33%;*/
+
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.redes a{
+	transition: all 1s;
+	transition-delay: 0.5s;
+
+}
+
+.redes a:hover{
+	transform: translateX(-15px);
+	transition: all 1s;
+}
+
+@keyframes izq-der{
+	0%{ transform: translateX(-100%);}
+	25%{transform: translateX(-75%);}
+	50%{transform: translateX(-50%);}
+	75%{transform: translateX(-25%);}
+	100%{transform: translateX(0%);}
+}
+
+.izq-der{
+	animation-name: izq-der;
+	animation-delay: 0s;
+	animation-duration: 1.5s;
+	animation-timing-function: linear;
+
+}

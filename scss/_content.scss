@@ -1,0 +1,17 @@
+
+ .displayFlex{
+   display: flex; }
+
+.separador-movil{
+  @include separador-movil(#0BE229);
+  display: none;
+  @media (max-width: 767px) and (min-width: 280px) {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 280px) {
+  .logo {
+    width: 100%; }
+}
+  

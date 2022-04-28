@@ -1,0 +1,42 @@
+$mainColor:linear-gradient(to bottom, #A6E6C4 10%, #58A0B6);
+$border:30px;
+$shadow:0 0 20px #59F2C5, 0 0 40px #59F2C5, 0 0 60px #59F2C5;
+$formColor:#59F2C5;
+$navColor:linear-gradient(to bottom, #25BB9D 80%, #A6E6C4);
+$footColor:#58A0B6;
+$mainColorWD:#A6E6C4;
+
+$w-25:25%;
+$w-50:50%;
+$w-75:75%;
+$w-100:100%;
+
+$p-20:20px;
+
+$m-auto:auto;
+
+@mixin padding-x($padding-right,$padding-left){
+	padding-right:$padding-right;
+	padding-left:$padding-left;
+}
+
+$jfy:(
+	'ctr' : center,
+	'spc-b' : space-between,
+	'spc-e' : space-evenly,
+	'spc-a' : space-around,
+	'start' : flex-start,
+	'end' :flex-end,
+	);
+
+@mixin separador-movil($color){
+	margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 3px;
+    background: $color;
+    box-shadow: 0 0 3px $color, 0 0 6px $color, 0 0 15px $color; 
+}
