@@ -93,6 +93,29 @@ footer {
     .twitterImg {
       width: 13%; } }
 
+.body-404 {
+  background: #0079d8; }
+
+.carita-div {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.carita {
+  font-size: 25rem;
+  color: white; }
+
+.texto-404 {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto; }
+  .texto-404 p {
+    color: white;
+    font-size: 4rem; }
+    .texto-404 p a {
+      color: white;
+      font-size: 4rem; }
+
 .formulario-turnos {
   background: linear-gradient(to bottom, #A6E6C4 10%, #58A0B6);
   height: 85vh;
@@ -114,6 +137,13 @@ footer {
     font-size: 4rem;
     margin-right: auto;
     margin-left: auto; }
+
+.btn-enviar a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none; }
+  .btn-enviar a:hover {
+    color: white; }
 
 .cont-index-info-maps {
   display: grid;

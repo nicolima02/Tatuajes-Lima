@@ -20,3 +20,14 @@
   margin-right: $m-auto;
   margin-left: $m-auto; }
 }
+
+.btn-enviar{    
+    a{
+      font-size: 1.5rem;
+      color:white;
+      text-decoration: none;
+      &:hover{
+        color: white;
+      }
+    }
+}
